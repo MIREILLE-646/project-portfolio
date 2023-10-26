@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+margin-top: 50px !important; 
+width:340px !important;   
+}
+div .hero{
+ background-image: url('img/image-equilibrium.jpg');
+ background-size: 100vh !important;
+ background-repeat: no-repeat;
+background-position: center; 
+height: 50vh !important; 
+}
+#icon{
+    position: relative;
+    left: 40%;
+    top: 45%;
+}
+.hero #display{
+  
+    display: none;
+}
+.hero:hover #display{
+ display: block !important;
+}
+
+.eq:hover{
+    cursor: pointer !important;
+ color: hsl(178, 100%, 50%) !important ;   
+}
+#jl{
+    color: white !important;
+}
+#jl:hover{   
+    cursor: pointer !important;
+ color: hsl(178, 100%, 50%) !important ;   
+}
